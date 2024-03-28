@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "./ProductCard.module.css";
 
 const ProductCard = () => {
   return (
-    <div>
+    <div className={styles.card}>
       <button
         onClick={() => {
           console.log("Clicked...");

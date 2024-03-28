@@ -1,11 +1,18 @@
 "use client";
 import React from "react";
-import ProductCard from "./ProductCard";
+import ProductCard from "./ProductCard/ProductCard";
 
 const AddToCart = () => {
   return (
     <div>
-      <ProductCard />
+      <button
+        className="btn btn-primary"
+        onClick={() => {
+          console.log("Clicked...");
+        }}
+      >
+        add to cart
+      </button>
     </div>
   );
 };
